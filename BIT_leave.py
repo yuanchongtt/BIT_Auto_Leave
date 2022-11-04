@@ -119,7 +119,7 @@ if __name__ == "__main__":
                "SQSM":"","QJKSRQ":"","QJJSRQ":"",
                "QJTS":1,"YL1_DISPLAY":"科研需求","YL1":"2dafc849555e4de7913b674279633df0",
                "YL2":"","YL3":"软件楼","YL4_DISPLAY":"步行",
-               "YL4":"2","YL5":"2022-09-29 06:00:00",
+               "YL4":"1","YL5":"2022-09-29 06:00:00",
                "YL6":"2022-09-29 23:00:00","YL7_DISPLAY":"否",
                "YL7":"0","YL8":"","QJSY":"前往软件楼","ZMCL":"",
                "SJH":str(telephone),"SQBH":"","XSBH":"",
