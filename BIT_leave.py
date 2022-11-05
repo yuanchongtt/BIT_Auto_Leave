@@ -125,9 +125,12 @@ if __name__ == "__main__":
                "SJH":str(telephone),"SQBH":"","XSBH":"",
                "QJRQ":"2022-09-29","BEGINDATE":"2022-09-29"}
     now_time = datetime.datetime.now()
-    qj_data["YL5"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 06:00:00")
-    qj_data["YL6"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 23:59:00")
-    qj_data["QJRQ"] = str((now_time + datetime.timedelta(days=+1))).split(' ')[0]
+    # qj_data["YL5"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 06:00:00")
+    # qj_data["YL6"] = (now_time + datetime.timedelta(days=+1)).strftime("%Y-%m-%d 23:59:00")
+    # qj_data["QJRQ"] = str((now_time + datetime.timedelta(days=+1))).split(' ')[0]
+    qj_data["YL5"] = (now_time).strftime("%Y-%m-%d 06:00:00")
+    qj_data["YL6"] = (now_time).strftime("%Y-%m-%d 23:59:00")
+    qj_data["QJRQ"] = str(now_time).split(' ')[0]
     qj_data["BEGINDATE"] = qj_data["QJRQ"]
     print(qj_data)
     header['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8'
